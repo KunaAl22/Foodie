@@ -27,18 +27,17 @@ Features
 
 To run the Recipe Search App locally, follow these steps:
 
-    Clone the repository:
+    Clone the repository: git clone https://github.com/KunaAl22/Foodie.git
 
-    bash
+    cd foodie
 
-git clone https://github.com/KunaAl22/Foodie.git
-cd foodie
 
 Install dependencies:
 
-bash
 
-npm install
+    npm install
+    npm install axios
+
 
 Obtain API Key:
 
