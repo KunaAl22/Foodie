@@ -1,5 +1,5 @@
 # Foodie
-Overview
+## Overview
 
 Foodie is a web application that allows users to search for recipes based on ingredients or keywords. It leverages the Spoonacular API to fetch recipe data and provides a user-friendly interface for exploring and discovering new recipes.
 Features
@@ -10,7 +10,7 @@ Features
 
     Detailed Information: Each recipe card displays detailed information about the recipe, including title, image, ingredients, and a link to view the complete recipe.
 
-Usage
+## Usage
 
     Search for Recipes:
         Enter ingredients or keywords in the search bar.
@@ -23,7 +23,7 @@ Usage
     Manage Ingredients:
         Remove ingredients by clicking the "X" button next to each applied ingredient.
 
-Getting Started
+## Getting Started
 
 To run the Recipe Search App locally, follow these steps:
 
@@ -56,7 +56,7 @@ bash
 
     Open the app in your browser at http://localhost:3000.
 
-Technologies Used
+## Technologies Used
 
     React
     Axios
