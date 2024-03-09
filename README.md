@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Foodie
+Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Foodie is a web application that allows users to search for recipes based on ingredients or keywords. It leverages the Spoonacular API to fetch recipe data and provides a user-friendly interface for exploring and discovering new recipes.
+Features
 
-## Available Scripts
+    Ingredient-based Search: Users can search for recipes based on the ingredients they have or want to use.
 
-In the project directory, you can run:
+    Dynamic Loading: Recipes are dynamically loaded as the user scrolls, providing a seamless browsing experience.
 
-### `npm start`
+    Detailed Information: Each recipe card displays detailed information about the recipe, including title, image, ingredients, and a link to view the complete recipe.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Search for Recipes:
+        Enter ingredients or keywords in the search bar.
+        Click the "Add Ingredient" button to include the ingredient in your search.
+        
+    Explore Recipes:
+        Scroll through the results to discover various recipes.
+        Click on a recipe card to view detailed information and find a link to the full recipe.
 
-### `npm test`
+    Manage Ingredients:
+        Remove ingredients by clicking the "X" button next to each applied ingredient.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Getting Started
 
-### `npm run build`
+To run the Recipe Search App locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/KunaAl22/Foodie.git
+cd foodie
 
-### `npm run eject`
+Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Obtain API Key:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Get a Spoonacular API key from Spoonacular API.
 
-## Learn More
+Configure API Key:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Replace 'ApiKey' with your Spoonacular API key in src/App.js.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run the application:
 
-### Code Splitting
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    npm start
 
-### Analyzing the Bundle Size
+    Open the app in your browser at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Technologies Used
 
-### Making a Progressive Web App
+    React
+    Axios
+    Spoonacular API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Credits
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project utilizes the Spoonacular API for recipe data. Special thanks to the Spoonacular team for providing this resource.
